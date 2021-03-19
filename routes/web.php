@@ -22,3 +22,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/enkripsi', 'DikiController@enkripsi');
 Route::get('/data/', 'DikiController@data');
 Route::get('/data/{data_rahasia}', 'DikiController@data_proses');
+Route::get('/hash', 'DikiController@hash');
