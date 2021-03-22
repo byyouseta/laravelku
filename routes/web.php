@@ -26,3 +26,4 @@ Route::get('/hash', 'DikiController@hash');
 // Upload file bab 30
 Route::get('/upload', 'UploadController@upload');
 Route::post('/upload/proses', 'UploadController@proses_upload');
+Route::get('/upload/hapus/{id}', 'UploadController@hapus');
